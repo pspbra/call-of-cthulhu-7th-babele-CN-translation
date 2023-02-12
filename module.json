@@ -1,0 +1,31 @@
+{
+  "name": "call-of-cthulhu-7th-babele-CN-translation",
+  "title": "Call of Cthulhu 7th 简体汉化",
+  "description": "Call of Cthulhu 7th Edition (Unofficial)的补充汉化mod，该游戏系统本身自带中文但不全面，为其做补充汉化，主要包括技能、相关说明汉化等。",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10.288",
+  "author": "CNNC",
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "scripts": [],
+  "styles": [],
+  "dependencies": [
+    {
+      "name": "babele",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+      "version": "2.0.5"
+    },
+    {
+      "name": "CoC7",
+      "type": "system",
+      "version": "0.9.0"
+    }
+  ],
+  "system": "CoC7",
+  "systemVersion": "0.6.4",
+  "url": "https://github.com/pspbra/call-of-cthulhu-7th-babele-CN-translation",
+  "manifest": "https://github.com/pspbra/call-of-cthulhu-7th-babele-CN-translation/master/module.json",
+  "download": "https://github.com/pspbra/call-of-cthulhu-7th-babele-CN-translation/releases/latest/download/module.zip"
+}
